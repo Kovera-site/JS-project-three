@@ -1,4 +1,3 @@
-
 export default class Slider {
    constructor(page, btns) {
       this.page = document.querySelector(page);
@@ -52,7 +51,7 @@ export default class Slider {
       try {
          this.hanson = document.querySelector('.hanson');
       } catch (e) {}
-      
+
       this.btns.forEach(btn => {
          btn.addEventListener('click', () => {
             this.plusSlides(1);
